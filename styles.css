@@ -1,0 +1,125 @@
+/* MAIN SECTIONS, DESCENDING  */
+
+#Application {
+  background-color: #b5b5b5;
+}
+
+.about {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+.work {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+.our {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+.footer {
+  background-image: url('https://s29288.pcdn.co/wp-content/uploads/2019/07/bones-poster.jpg');
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+body {
+  background-color: #c7c7c7;
+}
+
+/* HEADINGS */
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3::first-letter {
+  font-size: xxx-large;
+} /* may be white but works for some reason, leave alone? */
+
+h5 {
+  color: black;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+h5::first-letter {
+  font-size: xx-large;
+}
+
+h6 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 2px black;
+  color: #e6e5e3;
+}
+
+/* ORDERED BUT MISCELLANEOUS */
+
+input {
+  background-color: #e6e5e3;
+}
+
+section {
+  opacity: 78%;
+}
+
+p {
+  text-indent: 1.5em;
+}
+
+p::first-letter {
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #473400;
+}
+
+a:hover {
+  color: black;
+}
+
+button {
+  background-color: #acadac;
+  border-radius: 7px;
+  display: flex;
+  transition: 1.2s;
+}
+
+button:hover {
+  transform: scale(1.2, 1.2);
+  background-color: #919191;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px) {
+  #Application {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    position: static;
+  }
+}
